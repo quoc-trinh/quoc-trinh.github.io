@@ -1,0 +1,73 @@
+
+.banner::before {
+    background-image: url(../images/header-bg.png);
+    background-position: center;
+    content: "";
+    position: absolute;
+    margin-left: 0;
+    min-width: 80%;
+    min-height: 140px;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.header {
+        width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+        width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.header img#avatar {
+    width: 150px;
+    margin: 10px 10px 10px 20px;
+    border-radius: 50%;
+}
+
+div.header h1 {
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-family:  monospace;
+}
+
+body{ 
+    height:100vh; margin:0;
+  display:flex; 
+  flex-direction:column; 
+
+}
+
+footer { 
+        width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+    min-height:50px; 
+    margin-top:auto; 
+    background:skyblue; 
+    padding: 15px 15px 15px 15px;
+}
+
+.content {
+    width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+    font-size: 18px;
+}
+
+.footer .siteInfo {
+    float: left;
+}
+
+.footer .w3cValidator {
+    float: right;
+    padding-right: 30px;
+}
